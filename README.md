@@ -15,6 +15,9 @@ Output : 4
 Input : [1,1,2,2,3,3,9]
 Output : 9
 
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day1.c)
+
 ---
 
 
