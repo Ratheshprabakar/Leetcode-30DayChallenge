@@ -46,5 +46,6 @@ int main()
 			break;
 		}	
 	}
-	printf("%d",value);	
+	printf("%d",value);
+	free(input_array);
 }
