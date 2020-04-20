@@ -21,6 +21,25 @@ Output : 9
 ---
 
 
+***Day 2*** :Write an algorithm to determine if a number n is "happy"
+A happy number is  a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of it's digits, and repeat the process until the number equals 1(Where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers and process ends in 4 are not happy numbers.
+
+Return true if n is a happy number, and false if not.
+Input : 19
+Explanaton
+
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day2.c)
+
+---
+
+
+
+
+
+
+
+
 
 ```
 Feel free to make PR :)
