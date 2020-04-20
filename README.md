@@ -44,6 +44,15 @@ Explanaton : 1<sup>2</sup>+9<sup>2</sup>=82
 ---
 
 
+***Day 4*** :Given an array, write a function to move all 0's to the end of it while maintaining the relativve order of the non-zero elements
+
+Input : [0,1,0,3,12]
+Output : [1,3,12,0,0]
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day4.c)
+
+---
+
 
 
 
