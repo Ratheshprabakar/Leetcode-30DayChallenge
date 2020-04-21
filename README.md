@@ -43,6 +43,14 @@ Explanaton : 1<sup>2</sup>+9<sup>2</sup>=82
 
 ---
 
+***Day 3*** :GGiven an integer array, find the contiguous subarray(containing at least one number) which has the largest sum and return its sum
+Input : [-2,1,-3,4,-1,2,1,-5,4]
+Output : 6
+Explanation : [4,-1,2,1] has the largest sum=6
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day3.c)
+
+---
 
 ***Day 4*** :Given an array, write a function to move all 0's to the end of it while maintaining the relativve order of the non-zero elements
 
