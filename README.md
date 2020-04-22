@@ -64,6 +64,7 @@ Output : [1,3,12,0,0]
 ***Day 9*** :Given two strings S and T,return if they are equal when both are typed into empty text editors. # means a backspace character.
 
 Note that after backspacing an empty text, the text will continue empty.
+
 Input : S="ab#c" , T="ab#c"
 Output : True
 Explanation : Both S and T become "ac"
