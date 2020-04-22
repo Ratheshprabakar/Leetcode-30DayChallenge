@@ -61,6 +61,35 @@ Output : [1,3,12,0,0]
 
 ---
 
+***Day 9*** :Given two strings S and T,return if they are equal when both are typed into empty text editors. # means a backspace character.
+
+Note that after backspacing an empty text, the text will continue empty.
+Input : S="ab#c" , T="ab#c"
+Output : True
+Explanation : Both S and T become "ac"
+
+Input : S="ab##" , T="c#d#"
+Output : True
+Explanation : Both S and T become ""
+
+Input : S= "a##c", T="#a#c"
+Output : True
+Explanation : Both S and T become "c"
+
+Input : S="######", T="ab#c"
+Output: False
+Explanation : S becomes empty while T becomes "ac"
+
+Input S="a#c", T="b"
+Output : False
+Explanation : S becomes "c" while T becomes "b".
+
+Note : S and T only contains lowercase letters and '#' character. 
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day9.c)
+
+---
+
 
 
 
