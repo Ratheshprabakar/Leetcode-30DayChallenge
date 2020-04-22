@@ -17,7 +17,7 @@ Output : -1
 int main()
 {
 	int *input_array;
-	int size,target,index,i;
+	int size,target,index=-1,i;
 	printf("Enter the size\t");
 	scanf("%d",&size);
 	printf("Enter the target value\t");	
