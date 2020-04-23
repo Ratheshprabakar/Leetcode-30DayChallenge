@@ -120,6 +120,18 @@ Output : -1
 
 ---
 
+***Day 23*** :Given a range[m,n] where 0<=m<=n<=2147483647, return the bitwise AND of all numbers in this range, inclusive.
+
+Input : [5,7], Output : 4
+Input : [0,1], Output : 0
+Input : [1,3], Output : 0
+Input : [12,15], Output : 12
+Input : [17,19], Output : 16
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day23.c)
+
+---
+
 
 
 
