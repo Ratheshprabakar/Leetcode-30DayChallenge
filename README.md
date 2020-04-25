@@ -91,6 +91,26 @@ Note : S and T only contains lowercase letters and '#' character.
 
 ---
 
+***Day 10*** :Design a stack that supports push,pop,top and retrieving the minimum element in constant time.
+
+push(x) -- Push element X onto stack.
+pop() -- Removes the element on top of the stack.
+top() -- Get the top element
+getMin() -- Retrieve the minimum element in the stack.
+m-minstack,p-push,d=pop,g-getMin,t=top
+Give 99 for []
+
+Input 
+["m","p","p","p","g","d","t","g"]
+[[],[-2],[0],[-3],[],[],[],[]]
+
+Output 
+[null,null,null,null,-3,null,0,-2]
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day10.c)
+
+---
+
 ***Day 15*** :Given an array nums of n integers where n>1, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 
 Input : [1,2,3,4]
