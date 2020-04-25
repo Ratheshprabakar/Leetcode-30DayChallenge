@@ -102,6 +102,33 @@ Constraint : It's guaranteed that the product of the elements of any prefix or s
 
 ---
 
+***Day 16*** : Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
+
+    1.Any left parenthesis '(' must have a corresponding right parenthesis ')'.
+    2.Any right parenthesis ')' must have a corresponding left parenthesis '('.
+    3.Left parenthesis '(' must go before the corresponding right parenthesis ')'.
+    4.'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string.
+    5.An empty string is also valid.
+
+Input : "()"
+Output : True
+
+Input : "(*)"
+Output : True
+
+Input : "(*))"
+Ouput : True
+
+Input : ""
+Output : True
+
+Input : "(((*)"
+Output : False
+
+[Solution](https://github.com/Ratheshprabakar/Leetcode-30DayChallenge/blob/master/Day16.c)
+
+---
+
 ***Day 19*** :Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
 (i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2])
