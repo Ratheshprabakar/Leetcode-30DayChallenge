@@ -46,6 +46,11 @@ int main()
 				}	
 			}
 		}
+	 	if(count==size-1 || count ==size)
+		{
+			(input_array[0]!=999)?printf("%d",input_array[0]):printf("0");
+			break;	
+		}
 		y=input_array[s-count];
 		x=input_array[(s-1)-count];
 		if(x==y)
@@ -60,11 +65,7 @@ int main()
 			input_array[s-count]=y-x;
 			count =count+1;
 		}
-		if(count==size-1 || count ==size)
-		{
-			(input_array[0]!=999)?printf("%d",input_array[0]):printf("0");
-			break;	
-		}
+		
 	}
 	
 	free(input_array);
